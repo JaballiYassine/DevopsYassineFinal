@@ -53,7 +53,7 @@ public class Train implements Serializable {
     }
 
     public void setNbPlaceLibre(int nbPlaceLibre) {
-        this.nbPlaceLibre = nbPlaceLibre;
+        this.nbPlaceLibre = nbPlaceLibre +1 ;
     }
 
     public Train() {
